@@ -15,7 +15,7 @@ Il programma, oltre a includere il nucleo computazionale, integra anche un’int
 ## DESCRIZIONE ALGORITMICA
 
 Il programma è composto dalle seguenti procedure:
-- INIT: inizializza la sintassi del'input, ovvero gli operatori con cui l'utente comunica l'insieme da elaborare
+- INIT: inizializza la sintassi dell'input, ovvero gli operatori con cui l'utente comunica l'insieme da elaborare
 - ASGN: assegnazione/acquizione e elaborazione/interpretazione della stringa, inserita dall’utente, che rappresenta l'insieme 
 - CRD: calcolo della cardinalità dell’insieme
 - TDS: il calcolo dei numeri di Stirling di seconda specie, utilizzati per determinare il numero di Bell
