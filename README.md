@@ -76,13 +76,13 @@ Dal punto di vista matematico, l'algoritmo implementa la relazione ricorsiva dei
 $$S(n, k) = k * S(n-1, k) + S(n-1, k-1)$$
 
 Nel codice vengono usati tecniche di shifting e autoaggiornamento, anziché la ricorsione vera.
-Si usa un solo array dinamico `T` di dimensione `N+1`.
-L'array viene aggiornato in ordine decrescente di `k` per mantenere i valori precedenti.
+Si usa un solo array dinamico $T$ di dimensione $N+1$.
+L'array viene aggiornato in ordine decrescente di $k$ per mantenere i valori precedenti.
 
-L'array inizia con `T[0] = 1`.
-Per ogni `n` da 1 a `N`, il programma calcola:
-``T[k] = (k + 1) * T[k] + T[k - 1]``
-per `k` che va da `n` a 1.
+L'array inizia con $T[0] = 1$
+Per ogni $n$ da 1 a $N$, il programma calcola:
+$$T[k] = (k + 1) * T[k] + T[k - 1]$$
+per $k$ che va da $n$ a 1.
 
 Alla fine, il numero di Bell è la somma di tutti i valori dell'array T nell'ultima configurazione.
 
@@ -96,7 +96,7 @@ Il calcolo principale usa operazioni semplici:
 - assegnazioni.
 
 Il tipo usato per i risultati e `long long`.
-TDS fa crescere il tempo di esecuzione piu o meno come `N^2`.
+TDS fa crescere il tempo di esecuzione piu o meno come $N^2$.
 
 ### Prestazioni operative
 
@@ -119,7 +119,7 @@ Nel caso peggiore, entrambe le procedure crescono in modo quadratico.
 ##### Uso della memoria
 
 La memoria cresce in modo lineare con il numero di elementi.
-Il programma usa un solo array dinamico `T` di lunghezza `N+1`, quindi non costruisce una matrice completa.
+Il programma usa un solo array dinamico $T$ di lunghezza $N+1$, quindi non costruisce una matrice completa.
 
 ##### Uso della CPU
 
