@@ -116,12 +116,12 @@ Le procedure piu esigenti sono:
 
 Nel caso peggiore, entrambe le procedure crescono in modo quadratico.
 
-##### Uso della memoria
+#### Uso della memoria
 
 La memoria cresce in modo lineare con il numero di elementi.
 Il programma usa un solo array dinamico $T$ di lunghezza $N+1$, quindi non costruisce una matrice completa.
 
-##### Uso della CPU
+#### Uso della CPU
 
 Il codice è single-threaded.
 Non ci sono costi di sincronizzazione.
