@@ -126,3 +126,23 @@ Il programma usa un solo array dinamico $T$ di lunghezza $N+1$, quindi non costr
 Il codice è single-threaded.
 Non ci sono costi di sincronizzazione.
 La CPU lavora di piu quando l'insieme contiene piu elementi.
+
+## COME AVVIARE IL PROGRAMMA
+
+### 1) Con GCC (su Linux)
+
+- Apri una shell o un terminale
+- Entra nella cartella che contiene `main.c`.
+- Usa il compilatore GCC per generare l'eseguibile:
+    ``gcc main.c -o ads1``
+- Se la compilazione ha successo, avvia il programma con:
+    ``./ads1``
+
+### 2) Con CL (MSVC su Windows)
+
+- Apri il "Developer Command Prompt for Visual Studio".
+- Entra nella cartella che contiene `main.c`.
+- Compila con il comando:
+    ``cl main.c /Fe:ads1.exe``
+- Se la compilazione ha successo, esegui il programma con:
+    ``ads1.exe``
