@@ -61,6 +61,10 @@ In caso di risposta non valida, il sistema richiede nuovamente l'inserimento sen
 Gli input non conformi vengono rifiutati e non vengono inoltrati alle procedure di elaborazione.
 Per consentire l'interruzione immediata dell'applicazione, ADS1 riconosce inoltre il comando 'exit' digitabile durante la fase di acquisizione dell'insieme.
 
+Prima dell'acquisizione dell'insieme, l'utente può scegliere tra due modalità:
+- elementi costituiti da singoli caratteri alfanumerici;
+- elementi costituiti da stringhe alfanumeriche di lunghezza arbitraria.
+
 Dopo la fase di acquisizione, il programma mostra l'insieme normalizzato senza duplicati e con la sintassi corretta.
 Vengono inoltre visualizzate:
 - cardinalità effettiva dell'insieme
