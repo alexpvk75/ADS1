@@ -10,7 +10,7 @@ Il numero totale di partizioni di un insieme di n elementi è dato dal numero di
 Il numero di modi per partizionare un insieme di n elementi in esattamente k blocchi è dato dal numero di Stirling di seconda specie.
 
 ADS1 utilizza metodi computazionali basati su formule ricorsive per calcolare i numeri di Stirling e, di conseguenza, i numeri di Bell in modo analitico e deterministico.
-Nel corso dell’anno scolastico 2025/2026 ho implementato ADS1 nei linguaggi C e Python.
+Nel corso dell’anno scolastico 2025/2026 ho implementato ADS1 nel linguaggio C.
 Il programma, oltre a includere il nucleo computazionale, integra anche un’interfaccia CLI che consente l’interazione con l’utente e semplifica l’assegnazione degli insiemi da analizzare.
 ## DESCRIZIONE ALGORITMICA
 
